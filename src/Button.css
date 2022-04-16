@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
+
+#allButtons,
+#displaySelections {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+#allButtons {
+  margin: 25px;
+  padding: 16px 8px;
+  position: relative;
+  border: 3px #16ce15 solid;
+  /*background: rgb(3,27,1, .6);*/
+  background: rgb(13, 66, 8, 0.8);
+  color: #00ff2b;
+  float: right;
+}
+
+.buttonsRow,
+.displayRow {
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.prevNextButton {
+  margin: 0 auto;
+  width: 80px;
+  float: left;
+  font-size: 35px;
+}
+
+.prevNextButton:hover {
+  color: #00d8ff;
+  transition: color 0.3s;
+}
+.prevNextButton:active {
+  color: #fff;
+  font-size: 30px;
+  transition: font-size color 0.3s;
+}
+
+.prevNextType {
+  margin: 0 auto;
+  width: 190px;
+  float: left;
+  font-size: 30px;
+}
+
+#displaySelections {
+  margin: 10px 25px;
+  width: 380px;
+  padding: 16px 8px;
+  position: relative;
+  border: 3px #16ce15 solid;
+  background: rgb(13, 66, 8, 0.8);
+  color: #00ff2b;
+  font-size: 25px;
+  right: 0px;
+  float: right;
+}
+
+.styleType {
+  width: 50%;
+  float: right;
+  position: relative;
+}

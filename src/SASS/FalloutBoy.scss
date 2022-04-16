@@ -1,0 +1,246 @@
+@import 'mixins';
+
+/* Any shared classes or IDs that apply to VaultSuit and VaultBoy. */
+#avatarWindow {
+	margin: 25px;
+
+	position: relative;
+	width: 200px;
+	height: 350px;
+	
+	/*//left: 500px;*/
+	z-index: 60;
+	/*opacity: 1;*/
+	border: cyan 1px solid;
+	background: transparentize(#083d42, 0.2);
+	float: left;
+	
+	width: 300px;
+	text-align: center;
+	/*background: white;*/
+	height: 500px;
+}
+
+#falloutBoy {
+	position: relative;
+/*	width: 500px;
+	height: 500px;
+	left: -8px;
+*/	z-index: 50;
+	opacity: 1;
+	margin: 0 auto;
+	width: 175px;
+	height: 375px;
+		top: 50px;
+		border: 1px solid pink;
+		padding: 10px;
+		background-color: white;
+}
+
+#vaultSuit, #vaultBoy { /* These divs contain all of VaultSuit, and VaultBoy respectively. */
+	position: absolute;
+}
+
+/* These IDs are for Vault Suit and Vault Boy's limbs. */
+#vs_frontArm, #vs_head, #vs_torso, #vs_frontLeg, #vs_trunk, #vs_backLeg, #vs_backArm, #vb_frontArm, #vb_head, #vb_frontLeg, #vb_torso, #vb_trunk, #vb_backLeg, #vb_backArm {
+	position: absolute;
+}
+
+#vs_frontArm, #vb_frontArm {
+	left: 0px;
+	top: 89px;
+}
+
+#vs_head, #vb_head {
+	left: 43px;
+	top: 25px;
+	-ms-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+}
+
+#vs_torso, #vb_torso {
+	left: 46px;
+	top: 107px;
+}
+
+#vs_frontLeg, #vb_frontLeg {
+	left: 27px;
+	top: 218px;
+}
+
+#vs_trunk, #vb_trunk {
+	left: 45px;
+	top: 105px;
+}
+
+#vs_backLeg, #vb_backLeg {
+	left: 65px;
+	top: 208px;
+}
+
+#vs_backArm, #vb_backArm {
+	left: 76px;
+	top: 90px;
+}
+
+
+
+/* These classes are for each piece of Vault Suit and Vault Boy's. */
+.vs_frontarm_lowerhalf, #vb_frontarm_lowerhalf {
+	left: 7px;
+	top: 92px;
+	width: 85px;
+  	height: 55px;
+  	-ms-transform: scaleY(-1) rotate(85deg);
+	-webkit-transform: scaleY(-1) rotate(85deg);
+  	transform: scaleY(-1) rotate(85deg);
+}
+
+.vs_frontarm_upperhalf, #vb_frontarm_upperhalf {
+	left: 0px;
+	top: 40px;
+  	width: 110px;
+  	height: 60px;
+  	-ms-transform: scaleY(-1) rotate(75deg);
+	-webkit-transform: scaleY(-1) rotate(75deg);
+  	transform: scaleY(-1) rotate(75deg);
+}
+
+.vs_frontarm_glove, .vb_frontarm_hand {
+	left: 21px;
+	top: 128px;
+	width: 65px;
+  	height: 55px;
+  	-ms-transform: scaleY(-1) rotate(-81deg);
+	-webkit-transform: scaleY(-1) rotate(-81deg);
+	transform: scaleY(-1) rotate(-81deg);
+}
+
+.vs_hat {
+	left: -108px;
+	top: -10px;
+	width: 115px;
+  	height: 115px;
+		// background-color: rgba(0,0,255,.5);
+		/*opacity: .5;*/
+}
+
+.vs_mask {
+	left: -100px;
+	top: 0px;
+  width: 95px;
+    height: 105px;
+		// background-color: rgba(0,0,255,.5);
+		/*opacity: .5;*/
+}
+
+.vs_chest, #vb_chest {
+	left: 0px;
+	top: 0px;
+	width: 100px;
+  	height: 120px;
+  	-ms-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+}
+
+.vs_frontleg_upperhalf, #vb_frontleg_upperhalf {
+	left: 0px;
+	top: 0px;
+	width: 100px;
+  	height: 60px;
+  	-ms-transform: scaleY(-1) rotate(-90deg);
+	-webkit-transform: scaleY(-1) rotate(-90deg);
+	transform: scaleY(-1) rotate(-90deg);
+}
+
+.vs_frontleg_lowerhalf, #vb_frontleg_lowerhalf {
+	left: 0px;
+	top: 55px;
+	width: 87px;
+  	height: 55px;
+  	-ms-transform: scaleY(-1) rotate(-105deg);
+	-webkit-transform: scaleY(-1) rotate(-105deg);
+	transform: scaleY(-1) rotate(-105deg);
+}
+
+.vs_frontleg_foot, #vb_frontleg_foot {
+	left: 11px;
+	top: 101px;
+	width: 60px;
+  	height: 55px;
+  	-ms-transform: scaleY(-1) rotate(180deg);
+	-webkit-transform: scaleY(-1) rotate(180deg);
+  	transform: scaleY(-1) rotate(180deg);
+}
+
+.vs_crotch, #vb_crotch {
+	left: 3px;
+	top: 50px;
+	width: 90px;
+	height: 90px;
+	-ms-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+}
+
+.vs_backleg_upperhalf, #vb_backleg_upperhalf {
+	left: 0px;
+	top: 0px;
+	width: 105px;
+  	height: 65px;
+  	-ms-transform: scaleY(-1) rotate(95deg);
+	-webkit-transform: scaleY(-1) rotate(95deg);
+  	transform: scaleY(-1) rotate(95deg);
+}
+
+.vs_backleg_lowerhalf, #vb_backleg_lowerhalf {
+	left: 5px;
+	top: 60px;
+	width: 87px;
+  	height: 60px;
+  	-ms-transform: scaleY(-1) rotate(-105deg);
+	-webkit-transform: scaleY(-1) rotate(-105deg);
+	transform: scaleY(-1) rotate(-105deg);
+}
+
+.vs_backleg_foot, #vb_backleg_foot {
+	left: 22px;
+	top: 101px;
+	width: 60px;
+  	height: 55px;
+  	-ms-transform: scaleY(-1) rotate(180deg);
+	-webkit-transform: scaleY(-1) rotate(180deg);
+  	transform: scaleY(-1) rotate(180deg);
+}
+
+.vs_backarm_lowerhalf, #vb_backarm_lowerhalf {
+	left: 20px;
+	top: 84px;
+  	width: 80px;
+  	height: 50px;
+  	-ms-transform: scaleY(-1) rotate(-85deg);
+	-webkit-transform: scaleY(-1) rotate(-85deg);
+	transform: scaleY(-1) rotate(-85deg);
+}
+
+.vs_backarm_upperhalf, #vb_backarm_upperhalf {
+	left: 0px;
+	top: 40px;
+  	width: 90px;
+  	height: 50px;
+  	-ms-transform: scaleY(-1) rotate(75deg);
+	-webkit-transform: scaleY(-1) rotate(75deg);
+	transform: scaleY(1) rotate(75deg);
+}
+
+.vs_backarm_glove, .vb_backarm_hand {
+	left: 28px;
+	top: 126px;
+	width: 65px;
+  	height: 55px;
+  	-ms-transform: scaleY(-1) rotate(-81deg);
+	-webkit-transform: scaleX(-1) rotate(-81deg);
+	transform: scaleX(-1) rotate(-81deg);
+}

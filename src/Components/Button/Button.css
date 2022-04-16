@@ -1,0 +1,50 @@
+.buttonsRow {
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.prevNextButton {
+  margin: 0 auto;
+  width: 80px;
+  float: left;
+  font-size: 35px;
+}
+
+.prevNextButton:hover {
+  color: #00d8ff;
+  transition: color 0.3s;
+}
+.prevNextButton:active {
+  color: #fff;
+  font-size: 30px;
+  transition: font-size color 0.3s;
+}
+
+.prevNextType {
+  margin: 0 auto;
+  width: 190px;
+  float: left;
+  font-size: 30px;
+}
+
+.displayRow {
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.labelType {
+  width: 35%;
+  position: relative;
+  text-align: right;
+  font-weight: bold;
+}
+
+.styleType {
+  width: 65%;
+  position: relative;
+  text-transform: capitalize;
+}

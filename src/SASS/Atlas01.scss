@@ -1,0 +1,224 @@
+@import 'mixins';
+
+.vb_beard {
+    position: absolute;
+    //border: 1px solid red;
+    //top: 10px;
+}
+
+
+
+#facezz /* Girl ghoul */ {
+  width: 95px;
+  height: 105px;
+  background-position: -18px -660px;
+  z-index: 49;
+  position: absolute;
+}
+
+
+
+
+#vb_face1 { /* Dead Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: -878px -36px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face2 { /* Anguish Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: -878px -150px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face3 { /* Playful Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: -878px -260px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face4 { /* Angry Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: -878px -370px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face5 { /* Really Happy Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: (-878px - 20) -590px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face6 { /* Sad Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: (-878px - 20) -702px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face7 { /* Happy Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: (-878px - 20) -810px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+#vb_face8 { /* Praying Male */
+	width: 95px;
+  	height: 105px;
+  	background-position: (-878px - 20) -924px;
+  	z-index: 49;
+  	position: absolute;
+}
+
+
+
+
+
+
+
+#vb_beard1 { /* Clean Shavenly */
+  width: 0px; /* To avoid weird ghosting images. */
+  height: 0px;
+}
+
+#vb_beard2 { /* Facial Feature 14 in-game. */
+    background-position: -647px -145px;
+}
+
+#vb_beard3 { /* Facial Feature 13 in-game. */
+    background-position: -650px -258px;
+}
+
+#vb_beard4 { /* Facial Feature 12 in-game. */
+    background-position: -648px -368px;
+    /*background-color: red;*/
+}
+
+/* #vb_beard5 { //Pointed Beard & Glasses  ; Better as a Facial Feature.
+    background-position: -666px -589px;
+}*/
+
+#vb_beard5 { /* Facial Feature 6 in-game. */
+    background-position: -534px -61px;
+}
+
+#vb_beard6 { /* Facial Feature 4 in-game. */
+    background-position: -533px -174px;
+}
+
+#vb_beard7 { /* Facial Feature 2 in-game. */
+    background-position: -532px -283px;
+}
+
+#vb_beard8 { /* Facial Feature 11 in-game. */
+    background-position: -554px -478px;
+}
+
+#vb_beard9 { /* Facial Feature 10 in-game. */
+    background-position: -554px -592px;
+}
+
+#vb_beard10 { /* Facial Feature 9 in-game. */
+    background-position: -556px -702px;
+}
+
+#vb_beard11 { /* Facial Feature 8 in-game. */
+    background-position: -555px -811px;
+}
+
+#vb_beard12 { /* Facial Feature 7 in-game. */
+    background-position: -555px -924px;
+}
+
+#vb_beard13 { /* Facial Feature 5 in-game. */
+    background-position: -419px -61px;
+}
+
+#vb_beard14 { /* Facial Feature 3 in-game. */
+    background-position: -418px -170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#mask1 { /* Scars */
+    background-position: -765px -36px;
+}
+
+#mask2 { /* Goggles */
+    background-position: -755px -150px;
+}
+
+#mask3 { /* Monocle */
+    background-position: -755px -260px;
+}
+
+#mask4 { /* Goggles */
+    background-position: -760px -370px;
+}
+
+#mask5 { /* Wrinkles? */
+    background-position: -780px -480px;
+}
+
+#mask6 { /* Thief mask */
+    background-position: -780px -590px;
+}
+
+#mask7 { /* Skull makeup */
+    background-position: -780px -700px;
+}
+
+#mask8 { /* Scar */
+    background-position: -780px -810px;
+}
+
+#mask9 { /* Scar */
+    background-position: -780px -920px;
+}
+
+
+
+#mask10 { /* Raider black makeup */
+    background-position: -650px -36px;
+}
+
+#mask11 { /* Fairy makeup */
+    background-position: -663px -479px;
+}
+
+#mask12 { /* Glasses */
+    background-position: -662px -700px;
+}
+
+#mask13 { /* Glasses */
+    background-position: -662px -810px;
+}
+
+#mask14 { /* Ghoul Male */
+    background-position: -672px -922px;
+}
+
+#mask15 { /* Clown nose */
+    background-position: -418px -280px;
+}

@@ -1,0 +1,65 @@
+$sepia: sepia(100%);
+$contrast: contrast(1);
+
+.skinColor0 { /* Sprite default ; Very pale */
+}
+
+.skinColor1 {
+	filter: brightness(80%) $sepia hue-rotate(2deg) saturate(100%) $contrast;
+}
+
+.skinColor2 {
+	filter: brightness(80%) $sepia hue-rotate(10deg) saturate(145%) $contrast;
+}
+
+.skinColor3 { 
+	filter: brightness(74%) $sepia hue-rotate(-6deg) saturate(145%) $contrast;
+}
+
+.skinColor4 {
+	filter: brightness(70%) $sepia hue-rotate(2deg) saturate(150%) $contrast;
+}
+
+.skinColor5 { 
+	filter: brightness(63%) $sepia hue-rotate(-11deg) saturate(185%) $contrast;
+}
+
+.skinColor6 { 
+	filter: brightness(47%) $sepia hue-rotate(-10deg) saturate(220%) $contrast;
+}
+
+.skinColor7 { 
+	filter: brightness(37%) $sepia hue-rotate(-8deg) saturate(210%) $contrast;
+}
+
+.skinColor8 { 
+	filter: brightness(30%) sepia(100%) hue-rotate(-9deg) saturate(200%) $contrast;
+}
+
+.skinColor9 { /* Super Mutant */
+	filter: brightness(60%) $sepia hue-rotate(27deg) saturate(220%) $contrast;
+}
+
+.skinColor10 { /* Mannequin */
+	filter: brightness(85%) $sepia hue-rotate(2deg) saturate(30%) $contrast;
+}
+
+.skinColor11 { /* Green alien */
+	filter: brightness(50%) $sepia hue-rotate(60deg) saturate(600%) $contrast;
+}
+
+.skinColor12 { /* Dr. Manhattan */
+	filter: brightness(60%) $sepia hue-rotate(160deg) saturate(600%) $contrast;
+}
+
+/* Caucasian */
+/* Asian */
+/* Hispanic */
+/* African */
+
+/* Ghoul */
+/* Zetan */
+
+/*.skinColor13 { A Chilli Pepper
+	filter: brightness(28%) $sepia hue-rotate(-48deg) saturate(900%) $contrast;
+}*/

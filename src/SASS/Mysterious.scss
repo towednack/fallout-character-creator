@@ -1,0 +1,79 @@
+@import 'mixins';
+
+.mysterious {
+  background-image: url('https://uploads.codesandbox.io/uploads/user/60cb3b56-b7ef-4091-a89c-b254f042f4a6/CVVK-mysterious.png');
+  background-repeat: no-repeat;
+  //border: 1px solid black;
+}
+
+/* Outfit 57 - Mysterious Stranger */
+#outfit57_backleg_upperhalf {
+  background-position: $leg_upperhalf_x $backleg_y;
+}
+
+#outfit57_backleg_lowerhalf {
+  background-position: $leg_lowerhalf_x $backleg_y;
+}
+
+#outfit57_backleg_foot {
+  background-position: $foot_x $backleg_y;
+}
+
+#outfit57_frontleg_upperhalf {
+  background-position: $leg_upperhalf_x $frontleg_y;
+}
+
+#outfit57_frontleg_lowerhalf {
+  background-position: $leg_lowerhalf_x $frontleg_y;
+}
+
+#outfit57_frontleg_foot {
+  background-position: $foot_x ($frontleg_y + 10);
+}
+
+#outfit57_back_hem {
+  background-position: $back_hem_x 0;
+}
+
+#outfit57_front_hem {
+  background-position: $front_hem_x 0;
+}
+
+#headwear57
+	/*#vs_head */
+	{
+    left: -110px;
+    top: -10px;
+    width: 120px;
+    height: 120px;
+  background-position: 0px -140px;
+  background-image: url('https://uploads.codesandbox.io/uploads/user/60cb3b56-b7ef-4091-a89c-b254f042f4a6/CVVK-mysterious.png');
+  
+  /*background-color: rgba(255,0,255,.5)*/
+/*  left: (43 - 15);
+  top: (7 - 17);*/
+}
+
+#outfit57_chest {
+  background-position: $chest_x $chest_y;
+}
+
+#outfit57_crotch {
+  background-position: $crotch_x $crotch_y;
+}
+
+#outfit57_backarm_lowerhalf {
+  background-position: $arm_lowerhalf_x $backarm_y;
+}
+
+#outfit57_backarm_upperhalf {
+  background-position: $arm_upperhalf_x $backarm_y;
+}
+
+#outfit57_frontarm_lowerhalf {
+  background-position: $arm_lowerhalf_x $frontarm_y;
+}
+
+#outfit57_frontarm_upperhalf {
+  background-position: $arm_upperhalf_x $frontarm_y;
+}

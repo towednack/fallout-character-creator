@@ -1,0 +1,105 @@
+@import './mixins';
+
+
+.feral_ghoul, #outfit58_backarm_hand, #outfit58_frontarm_hand, #outfit58_head {
+    background-image: url('../Images/TXT_FeralGhoul.png');
+}
+
+.feral_ghoul {
+
+  background-repeat: no-repeat;
+  //border: 1px solid black;
+}
+
+/*#outfit7_backarm_handopen*/
+#outfit58_backarm_hand 
+{
+  width: 65px;
+  height: 55px;
+    background-position: -5px -15px;
+  left: 29px;
+  top: 128px;
+  transform: scaleX(-1) rotate(-90deg);
+  z-index: 50;
+}
+
+/*#outfit7_frontarm_handopen*/
+#outfit58_frontarm_hand 
+{
+  left: 18px;
+  top: (128 + 9);
+  transform: scaleY(-1) rotate(-90deg);
+  z-index: 50;
+      width: 65px;
+  height: 55px;
+  background-position: -5px -73px;
+  //border: black 1px solid;
+}
+
+
+
+/* Outfit 58 - Feral Ghoul */
+#outfit58_backleg_upperhalf {
+  background-position: $leg_upperhalf_x $backleg_y;
+}
+
+#outfit58_backleg_lowerhalf {
+  background-position: $leg_lowerhalf_x $backleg_y;
+}
+
+#outfit58_backleg_foot {
+  background-position: $foot_x $backleg_y;
+}
+
+#outfit58_frontleg_upperhalf {
+  background-position: $leg_upperhalf_x $frontleg_y;
+}
+
+#outfit58_frontleg_lowerhalf {
+  background-position: $leg_lowerhalf_x $frontleg_y;
+}
+
+#outfit58_frontleg_foot {
+  background-position: $foot_x ($frontleg_y + 10);
+}
+
+#outfit58_head 
+	/*#vs_head */
+	{
+  width: 95px;
+  height: 105px;
+  background-position: -14px -148px;
+  z-index: 99;
+  transform: scaleX(-1);
+}
+
+#outfit58_chest {
+  background-position: $chest_x $chest_y;
+}
+
+#outfit58_crotch {
+  background-position: $crotch_x $crotch_y;
+}
+
+#outfit58_backarm_lowerhalf {
+  background-position: $arm_lowerhalf_x $backarm_y;
+}
+
+#outfit58_backarm_upperhalf {
+  background-position: $arm_upperhalf_x $backarm_y;
+}
+
+#outfit58_frontarm_lowerhalf {
+  background-position: $arm_lowerhalf_x $frontarm_y;
+}
+
+#outfit58_frontarm_upperhalf {
+  background-position: $arm_upperhalf_x $frontarm_y;
+}
+
+
+
+ /*       #outfit58_backleg_lowerhalf, #outfit58_backleg_foot, #outfit58_frontleg_lowerhalf, #outfit58_frontleg_foot, #outfit58_backarm_lowerhalf, #outfit58_backarm_upperhalf, #outfit58_frontarm_lowerhalf, #outfit58_frontarm_upperhalf {
+          width: 0px;
+          height: 0px;
+        }*/

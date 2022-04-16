@@ -1,0 +1,414 @@
+@import 'mixins';
+
+/* outfit9 - That's a Nice Shirt! */
+#outfit9_backleg_upperhalf {
+  background-position: $leg_upperhalf_x $backleg_y;
+}
+
+#outfit9_backleg_lowerhalf {
+  background-position: $leg_lowerhalf_x $backleg_y;
+}
+
+#outfit9_backleg_foot {
+  background-position: $foot_x $backleg_y;
+}
+
+#outfit9_frontleg_upperhalf {
+  background-position: $leg_upperhalf_x $frontleg_y;
+}
+
+#outfit9_frontleg_lowerhalf {
+  background-position: $leg_lowerhalf_x $frontleg_y;
+}
+
+#outfit9_frontleg_foot {
+  background-position: $foot_x ($frontleg_y + 10);
+}
+
+#outfit9_chest {
+  background-position: $chest_x $chest_y;
+}
+
+#outfit9_crotch {
+  background-position: $crotch_x $crotch_y;
+}
+
+#outfit9_backarm_upperhalf {
+  background-position: $arm_upperhalf_x $backarm_y;
+}
+
+#outfit9_frontarm_upperhalf {
+  background-position: $arm_upperhalf_x $frontarm_y;
+}
+
+#outfit9_backarm_lowerhalf, #outfit9_frontarm_lowerhalf { /* Short sleeves */
+  width: 0;
+  height: 0;
+}
+
+
+
+/* outfit10 - Sweater Vest with Tie */
+#outfit10_backleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) $backleg_y;
+}
+
+#outfit10_backleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) $backleg_y;
+}
+
+#outfit10_backleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) $backleg_y;
+}
+
+#outfit10_frontleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) $frontleg_y;
+}
+
+#outfit10_frontleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) $frontleg_y;
+}
+
+#outfit10_frontleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) ($frontleg_y + 10);
+}
+
+#outfit10_chest {
+  background-position: ($chest_x - $outfit_BDFH_x) $chest_y;
+}
+
+#outfit10_crotch {
+  background-position: ($crotch_x - $outfit_BDFH_x) $crotch_y;
+}
+
+#outfit10_backarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) $backarm_y;
+}
+
+#outfit10_backarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) $backarm_y;
+}
+
+#outfit10_frontarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) $frontarm_y;
+}
+
+#outfit10_frontarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) $frontarm_y;
+}
+
+
+
+/* Outfit 11 - Sweater Vest */
+#outfit11_backleg_upperhalf {
+  background-position: $leg_upperhalf_x ($backleg_y - $outfitC_y);
+}
+
+#outfit11_backleg_lowerhalf {
+  background-position: $leg_lowerhalf_x ($backleg_y - $outfitC_y);
+}
+
+#outfit11_backleg_foot {
+  background-position: $foot_x ($backleg_y - $outfitC_y);
+}
+
+#outfit11_frontleg_upperhalf {
+  background-position: $leg_upperhalf_x ($frontleg_y - $outfitC_y);
+}
+
+#outfit11_frontleg_lowerhalf {
+  background-position: $leg_lowerhalf_x ($frontleg_y - $outfitC_y);
+}
+
+#outfit11_frontleg_foot {
+  background-position: $foot_x (($frontleg_y + 10) - $outfitC_y);
+}
+
+#outfit11_chest {
+  background-position: $chest_x ($chest_y - $outfitC_y);
+}
+
+#outfit11_crotch {
+  background-position: $crotch_x ($crotch_y - $outfitC_y);
+}
+
+#outfit11_backarm_lowerhalf {
+  left: 22px;
+  background-position: $arm_lowerhalf_x ($backarm_y - $outfitC_y);
+}
+
+#outfit11_backarm_upperhalf {
+  background-position: $arm_upperhalf_x ($backarm_y - $outfitC_y);
+}
+
+#outfit11_frontarm_lowerhalf {
+  background-position: $arm_lowerhalf_x ($frontarm_y - $outfitC_y);
+}
+
+#outfit11_frontarm_upperhalf {
+  background-position: $arm_upperhalf_x ($frontarm_y - $outfitC_y);
+}
+
+
+
+/* Outfit 12 - Flight Suit */
+#outfit12_backleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) ($backleg_y - $outfitC_y);
+}
+
+#outfit12_backleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) ($backleg_y - $outfitC_y);
+}
+
+#outfit12_backleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) ($backleg_y - $outfitC_y);
+}
+
+#outfit12_frontleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) ($frontleg_y - $outfitC_y);
+}
+
+#outfit12_frontleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) ($frontleg_y - $outfitC_y);
+}
+
+#outfit12_frontleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) (($frontleg_y + 10) - $outfitC_y);
+}
+
+#outfit12_chest {
+  background-position: ($chest_x - $outfit_BDFH_x) ($chest_y - $outfitC_y);
+}
+
+#outfit12_crotch {
+  background-position: ($crotch_x - $outfit_BDFH_x) ($crotch_y - $outfitC_y);
+}
+
+#outfit12_backarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) ($backarm_y - $outfitC_y);
+}
+
+#outfit12_backarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) ($backarm_y - $outfitC_y);
+}
+
+#outfit12_frontarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) ($frontarm_y - $outfitC_y);
+}
+
+#outfit12_frontarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) ($frontarm_y - $outfitC_y);
+}
+
+
+
+/* Outfit 13 - Autumn's uniform */
+#outfit13_backleg_upperhalf {
+  background-position: $leg_upperhalf_x ($backleg_y - $outfitE_y);
+}
+
+#outfit13_backleg_lowerhalf {
+  background-position: $leg_lowerhalf_x ($backleg_y - $outfitE_y);
+}
+
+#outfit13_backleg_foot {
+  background-position: $foot_x ($backleg_y - $outfitE_y);
+}
+
+#outfit13_frontleg_upperhalf {
+  background-position: $leg_upperhalf_x ($frontleg_y - $outfitE_y);
+}
+
+#outfit13_frontleg_lowerhalf {
+  background-position: $leg_lowerhalf_x ($frontleg_y - $outfitE_y);
+}
+
+#outfit13_frontleg_foot {
+  background-position: $foot_x (($frontleg_y + 10) - $outfitE_y);
+}
+
+#outfit13_backhem {
+  background-position: $back_hem_x (-5px - $outfitE_y);
+}
+
+#outfit13_fronthem {
+  background-position: $front_hem_x (-5px - $outfitE_y);
+}
+
+#outfit13_chest {
+  background-position: $chest_x ($chest_y - $outfitE_y);
+}
+
+#outfit13_crotch {
+  background-position: $crotch_x ($crotch_y - $outfitE_y);
+}
+
+#outfit13_backarm_lowerhalf {
+  background-position: $arm_lowerhalf_x ($backarm_y - $outfitE_y);
+}
+
+#outfit13_backarm_upperhalf {
+  background-position: $arm_upperhalf_x ($backarm_y - $outfitE_y);
+}
+
+#outfit13_frontarm_lowerhalf {
+  background-position: $arm_lowerhalf_x ($frontarm_y - $outfitE_y);
+}
+
+#outfit13_frontarm_upperhalf {
+  background-position: $arm_upperhalf_x ($frontarm_y - $outfitE_y);
+}
+
+
+
+/* Outfit 14 - Combat armor */
+#outfit14_backleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) ($backleg_y - $outfitE_y);
+}
+
+#outfit14_backleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) ($backleg_y - $outfitE_y);
+}
+
+#outfit14_backleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) ($backleg_y - $outfitE_y);
+}
+
+#outfit14_frontleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) ($frontleg_y - $outfitE_y);
+}
+
+#outfit14_frontleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) ($frontleg_y - $outfitE_y);
+}
+
+#outfit14_frontleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) (($frontleg_y + 10) - $outfitE_y);
+}
+
+#outfit14_chest {
+  background-position: ($chest_x - $outfit_BDFH_x) ($chest_y - $outfitE_y);
+}
+
+#outfit14_crotch {
+  background-position: ($crotch_x - $outfit_BDFH_x) ($crotch_y - $outfitE_y);
+}
+
+#outfit14_backarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) ($backarm_y - $outfitE_y);
+}
+
+#outfit14_backarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) ($backarm_y - $outfitE_y);
+}
+
+#outfit14_frontarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) ($frontarm_y - $outfitE_y);
+}
+
+#outfit14_frontarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) ($frontarm_y - $outfitE_y);
+}
+
+
+
+/* Outfit 15 - Tunnel Snake's Outfit */
+#outfit15_backleg_upperhalf {
+  background-position: $leg_upperhalf_x ($backleg_y - $outfitG_y);
+}
+
+#outfit15_backleg_lowerhalf {
+  background-position: $leg_lowerhalf_x ($backleg_y - $outfitG_y);
+}
+
+#outfit15_backleg_foot {
+  background-position: $foot_x ($backleg_y - $outfitG_y);
+}
+
+#outfit15_frontleg_upperhalf {
+  background-position: $leg_upperhalf_x ($frontleg_y - $outfitG_y);
+}
+
+#outfit15_frontleg_lowerhalf {
+  background-position: $leg_lowerhalf_x ($frontleg_y - $outfitG_y);
+}
+
+#outfit15_frontleg_foot {
+  background-position: $foot_x (($frontleg_y + 10) - $outfitG_y);
+}
+
+#outfit15_chest {
+  background-position: $chest_x ($chest_y - $outfitG_y);
+}
+
+#outfit15_crotch {
+  background-position: $crotch_x ($crotch_y - $outfitG_y);
+}
+
+#outfit15_backarm_lowerhalf {
+  background-position: $arm_lowerhalf_x ($backarm_y - $outfitG_y);
+}
+
+#outfit15_backarm_upperhalf {
+  background-position: $arm_upperhalf_x ($backarm_y - $outfitG_y);
+}
+
+#outfit15_frontarm_lowerhalf {
+  background-position: $arm_lowerhalf_x ($frontarm_y - $outfitG_y);
+}
+
+#outfit15_frontarm_upperhalf {
+  background-position: $arm_upperhalf_x ($frontarm_y - $outfitG_y);
+}
+
+
+
+/* Outfit 16 - Ex Con's outfit */
+#outfit16_backleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) ($backleg_y - $outfitG_y);
+}
+
+#outfit16_backleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) ($backleg_y - $outfitG_y);
+}
+
+#outfit16_backleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) ($backleg_y - $outfitG_y);
+}
+
+#outfit16_frontleg_upperhalf {
+  background-position: ($leg_upperhalf_x - $outfit_BDFH_x) ($frontleg_y - $outfitG_y);
+}
+
+#outfit16_frontleg_lowerhalf {
+  background-position: ($leg_lowerhalf_x - $outfit_BDFH_x) ($frontleg_y - $outfitG_y);
+}
+
+#outfit16_frontleg_foot {
+  background-position: ($foot_x - $outfit_BDFH_x) (($frontleg_y + 10) - $outfitG_y);
+}
+
+#outfit16_chest {
+  background-position: ($chest_x - $outfit_BDFH_x) ($chest_y - $outfitG_y);
+}
+
+#outfit16_crotch {
+  background-position: ($crotch_x - $outfit_BDFH_x) ($crotch_y - $outfitG_y);
+}
+
+#outfit16_backarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) ($backarm_y - $outfitG_y);
+}
+
+#outfit16_backarm_lowerhalf { /* 1 Short sleeve */
+  width: 0;
+  height: 0;
+}
+
+#outfit16_frontarm_lowerhalf {
+  background-position: ($arm_lowerhalf_x - $outfit_BDFH_x) ($frontarm_y - $outfitG_y);
+}
+
+#outfit16_frontarm_upperhalf {
+  background-position: ($arm_upperhalf_x - $outfit_BDFH_x) ($frontarm_y - $outfitG_y);
+}

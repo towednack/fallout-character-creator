@@ -1,0 +1,403 @@
+@import 'mixins';
+
+.vb_hand { /* Vault Boy Gloves use this. */
+
+  /*position: absolute;*/
+  /*background-color: rgba(255,0,255,.5);*/
+      /*margin: 10px;*/
+}
+
+
+.vs_frontarm_glove, .vs_backarm_glove {
+  background-coelor: rgba(0,255,0,.5);
+}
+
+.vs_frontarm_glove {
+  top: 131px;
+}
+
+.vs_backarm_glove {
+  top: 128px;
+}
+
+
+.vg_hand { /* Vault Girl Gloves use this. */
+  width: 60px;
+  height: 40px;
+  position: relative;
+  background-color: rgba(255,255,255,.5);
+      margin: 10px;
+        width: 65px;
+        height: 50px;
+}
+
+
+
+/* VaultBoy male hands and gloves. */
+#vb_frontarm_glove0, #vb_backarm_glove0 {
+  width: 0px; /* To disable ghosting images. */
+  height: 0px;
+}
+
+
+#vb_backarm_glove1 {        /* Closed, Male, Gloves */
+background-position: -75px -95px;
+}
+
+#vb_frontarm_glove1 { /* Closed, Male, Gloves */
+  background-position: -75px -160px;
+}
+
+/*#vb_backarm_gloveopen {*/
+#vb_backarm_hand2 { /* Male skintone. Open hands. */
+  background-position: -150px -145px
+}
+
+#vb_frontarm_hand2 { /* Male skintone. Open hands. */
+/*#vb_frontarm_gloveopen {*/
+  background-position: -145px -200px
+}
+
+      #vg_back_handzz { /* Fingerless Gloves? Male? */
+        background-position: -10px -225px;
+      }
+
+      #vg_front_handzz { /* Fingerless Gloves? Male? */
+       background-position: -5px -285px;
+      }
+
+#vb_backarm_glove3 {       /* Open, Male Gloves. Metal Armor? */
+  background-position: -75px -230px;
+}
+
+#vb_frontarm_glove3 {       /* Open, Male Gloves. Metal Armor? */
+ background-position: -75px -285px;
+}
+
+#vb_backarm_hand4 { /* Male skintone. Closed hands. */
+  background-position: -145px -265px
+}
+
+#vb_frontarm_hand4 { /* Male skintone. Closed hands. */
+  background-position: -145px -330px
+}
+
+#vb_backarm_glove5 { /* BoS uniform. Open gloves. */
+  background-position: -3px -358px;
+}
+
+#vb_frontarm_glove5 { /* BoS uniform. Open gloves. */
+ background-position: -3px -413px;
+}
+
+#vb_backarm_glove6 {       /* Closed Metal? gloves Male? */
+  background-position: -75px -350px;
+}
+
+#vb_frontarm_glove6 {      /* Closed Metal? gloves Male? */
+ background-position: -75px -415px;
+}
+
+#vb_backarm_glove7 { /* Skeleton costume. Closed gloves. */
+  background-position: -150px -390px;
+}
+
+#vb_frontarm_glove7 { /* Skeleton costume. Closed gloves. */
+ background-position: -145px -460px;
+}
+
+#vb_backarm_glove8 { /* Radiation suit, Minuteman uniform. Open gloves. */
+  background-position: -119px -529px;
+}
+
+#vb_frontarm_glove8 { /* Radiation suit, Minuteman uniform. Open gloves. */
+ background-position: -119px -585px;
+}
+
+#vb_backarm_glove9 {     /* Boxing gloves. */
+  top: 128px;
+  width: 75px;
+  background-position: -185px -520px;
+}
+
+#vb_frontarm_glove9 {    /* Boxing gloves. */
+  left: 18px;
+  top: 130px;
+  width: 75px;
+ background-position: -185px -585px;
+}
+
+#vb_backarm_glove10 { /* Radiation suit, Minuteman uniform. Closed gloves. */
+  background-position: -120px -645px;
+}
+
+#vb_frontarm_glove10 { /* Radiation suit, Minuteman uniform. Closed gloves. */
+ background-position: -115px -715px;
+}
+
+#vb_backarm_glove11 {    /* Baseball gloves. */
+  width: 75px;
+  height: 60px;
+  background-position: -185px -640px;
+}
+
+#vb_frontarm_glove11 {     /* Baseball gloves. */
+  width: 75px;
+    height: 60px;
+ background-position: -185px -710px;
+}
+
+#vb_backarm_glove12 { /* T-45 power armor, T-51 power armor, T-60 power armor, X-01 Mk VI power armor. Open gloves. */
+  width: 70px;
+  background-position: -116px -783px;
+}
+
+#vb_frontarm_glove12 { /* T-45 power armor, T-51 power armor, T-60 power armor, X-01 Mk VI power armor. Open gloves. */
+  width: 70px;
+ background-position: -115px -841px;
+}
+
+#vb_backarm_glove13 { /* Skeleton costume. Open gloves. */
+  width: 70px;
+  background-position: -187px -784px;
+}
+
+#vb_frontarm_glove13 { /* Skeleton costume. Open gloves. */
+  width: 70px;
+ background-position: -185px -842px;
+}
+
+#vb_backarm_glove14 { /* BoS uniform. Closed gloves. */
+  background-position: -925px -905px;
+}
+
+#vb_frontarm_glove14 { /* BoS uniform. Closed gloves. */
+ background-position: -920px -970px;
+}
+
+
+
+
+/* VaultGirl female hands and gloves. */
+#vg_backarm_glove1 { /* Closed, Female, Gloves */
+  background-position: -5px -40px;
+}
+
+#vg_frontarm_glove1 { /* Closed, Female, Gloves */
+  background-position: -75px -40px;
+}
+
+#vg_backarm_glove2 { /* Metal armor. Closed gloves. */
+  background-position: -155px -25px;
+}
+
+#vg_frontarm_glove2 { /* Metal armor. Closed gloves. */
+  background-position: -225px -20px;
+}
+
+#vg_back_hand3 { /* Open, Female, Gloves */
+  background-position: -300px -15px;
+}
+
+#vg_frontarm_glove3 { /* Open, Female, Gloves */
+  background-position: -370px -15px;
+}
+
+#vg_backarm_glove4 { /* Fingerless Gloves? Female? */
+  background-position: -10px -100px;
+}
+
+#vg_frontarm_glove4 { /* Fingerless Gloves? Female? */
+ background-position: -5px -160px;
+}
+
+#vg_backarm_glove6 { /* Open, Female, Gloves */
+  background-position: -155px -80px;
+}
+
+#vg_frontarm_glove6 { /* Open, Female, Gloves */
+  background-position: -225px -85px;
+}
+
+#vg_backarm_glove7 { /* Closed, Female, Gloves */
+  background-position: -300px -70px;
+}
+
+#vg_frontarm_glove7 { /* Closed, Female, Gloves */
+  background-position: -370px -70px;
+}
+
+#vg_backarm_glove9 { /* T-51 power armor. Open gloves. */
+  background-position: -300px -125px;
+}
+
+#vg_frontarm_glove9 { /* T-51 power armor. Open gloves. */
+  background-position: -370px -125px;
+}
+
+#vg_backarm_glove10 { /* Open, Female, Hands */
+  background-position: -435px -125px;
+}
+
+#vg_frontarm_glove10 { /* Open, Female, Hands */
+  background-position: -505px -125px;
+}
+
+#vg_backarm_glove11 { /* T-51 power armor. Closed gloves. */
+  background-position: -220px -175px;
+}
+
+#vg_frontarm_glove11 { /* T-51 power armor. Closed gloves. */
+  background-position: -285px -180px;
+}
+
+#vg_backarm_glove12 { /* Closed, Female, Hands */
+  background-position: -355px -175px;
+}
+
+#vg_frontarm_glove12 { /* Closed, Female, Hands */
+  background-position: -420px -180px;
+}
+
+#vg_backarm_glove16 { /* Piper's outfit. Open gloves. */
+  background-position: -215px -230px;
+}
+
+#vg_frontarm_glove16 { /* Piper's outfit. Open gloves. */
+  background-position: -285px -235px;
+}
+
+#vg_backarm_glove17 { /* Female Boxing Gloves */
+  background-position: -350px -225px;
+}
+
+#vg_frontarm_glove17 { /* Female Boxing Gloves */
+  background-position: -420px -225px;
+}
+
+#vg_backarm_glove18 { /* Piper's outfit. Closed gloves. */
+  background-position: -215px -285px;
+}
+
+#vg_frontarm_glove18 { /* Piper's outfit. Closed gloves. */
+  background-position: -285px -285px;
+}
+
+#vg_backarm_glove19 { /* Female Baseball glove */
+  background-position: -350px -275px;
+}
+
+#vg_frontarm_glove19 { /* Female Baseball glove */
+  background-position: -420px -285px;
+}
+
+#vg_backarm_glove23 { /* Open lady skeleton gloves. */
+  background-position: -220px -345px;
+}
+
+#vg_frontarm_glove23 { /* Open lady skeleton gloves. */
+  background-position: -290px -350px;
+}
+
+#vg_backarm_glove24 { /* Closed lady skeleton gloves. */
+  background-position: -220px -405px;
+}
+
+#vg_frontarm_glove24 { /* Closed lady skeleton gloves. */
+  background-position: -290px -405px;
+}
+
+#vg_backarm_glove25 { /* Metal armor. Open gloves. */
+  background-position: -220px -460px;
+}
+
+#vg_frontarm_glove25 { /* Metal armor. Open gloves. */
+  background-position: -290px -460px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+#headwear29 { /* Silver Shroud hat */
+  left: -107px;
+  top: -20px;
+  width: 120px;
+    background-position: -805px -905px;
+}
+
+#headwear30 { /* Santa suit */
+  top: -20px;
+  left: -90px;
+    background-position: -692px -905px;
+}
+
+#headwear31 { /* Minuteman uniform */
+  left: -108px;
+  top: -16px;
+  width: 120px;
+    background-position: -574px -905px; /* Needs to be very close to right edge. */
+}
+
+#headwear32 { /* T-45 power armor */
+    left: -105px;
+    top: -5px;
+    background-position: -460px -915px;
+    width: 116px;
+}
+
+#headwear33 { /* Eulogy Jones' outfit */
+    left: -100px;
+    top: -18px;
+    background-position: -350px -905px;
+}
+
+#headwear34 { /* Pirate hat and eyepatch */
+    left: -107px;
+    top: -20px;
+    width: 120px;
+    background-position: -230px -905px;
+}
+
+#headwear35 { /* Pilgrim outfit */
+    top: -28px;
+  left: -105px;
+    background-position: -118px -905px;
+}
+
+#headwear36 { /* Party hat */
+    left: -95px;
+    top: -18px;
+    background-position: -5px -910px;
+}
+
+#headwear37 { /* Skeleton costume */
+    left: -108px;
+    top: -16px;
+    background-position: 0px -795px;
+}
+
+#headwear38 { /* Swimsuit outfit */
+  left: -102px;
+    top: -14px;
+    background-position: 0px -700px;
+}
+
+#headwear39 { /* Synth armor */
+    left: -108px;
+    top: -6px;
+    background-position: 0px -585px;
+}
+
+#headwear40 { /* Three Dog's outfit */
+    left: -108px;
+    top: -10px;
+    background-position: 0px -470px;
+}

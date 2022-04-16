@@ -1,0 +1,58 @@
+/* These control the group of Vault Boy's limbs. */
+/* Affects FalloutBoy.scss, VaultSuit.scss, and VaultBoy.scss. */
+/* None */
+
+
+
+
+/* These control each individual piece of Vault Boy or Vault Suit. */
+/* Affects FalloutBoy.scss, VaultSuit.scss, VaultBoy.scss, and each Atlas. */
+/* Legs and Feet */
+$leg_upperhalf_x: -75px;		  /* outfit0_backleg_upperhalf */
+$backleg_y: -5px; 				  /* outfit0_backleg_upperhalf, outfit0_backleg_lowerhalf, outfit0_backleg_foot */
+
+$leg_lowerhalf_x: -185px;		  /* outfit0_backleg_lowerhalf */
+
+$foot_x: -295px;				  /* outfit0_backleg_foot, outfit0_frontleg_foot */
+
+$frontleg_y: -70px;				  /* outfit0_frontleg_upperhalf, outfit0_frontleg_lowerhalf */
+
+/* Hems - But not all outfits have hems. */
+$back_hem_x: -365px;			  /* outfit0_back_hem */
+$front_hem_x: -420px;			  /* outfit0_front_hem */
+
+/* Hair */
+$vb_hair1_x: -279px;			  /* Affects 1st column of hairstyles. */
+$vb_hair2_x: -395px;			  /* Affects 2nd column of hairstyles. */
+$vb_hair3_x: -509px;			  /* Affects 3rd column of hairstyles. */
+
+$vb_hairA_y: -910px;			  /* Affects 9th row of hairstyles. */
+$vb_hairB_y: -780px;			  /* Affects 8th row of hairstyles. */
+$vb_hairC_y: -670px;			  /* Affects 7th row of hairstyles. */
+$vb_hairD_y: -560px;			  /* Affects 6th row of hairstyles. */
+$vb_hairE_y: -450px;			  /* Affects 5th row of hairstyles. */
+$vb_hairF_y: -340px;			  /* Affects 4th row of hairstyles. */
+$vb_hairG_y: -230px;			  /* Affects 3rd row of hairstyles. */
+$vb_hairH_y: -120px;			  /* Affects 2nd row of hairstyles. */
+$vb_hairI_y: -10px;				  /* Affects 1st row of hairstyles. */
+
+/* Chest */
+$chest_x: -120px;			 	  /* outfit0_chest */
+$chest_y: -135px;				  /* outfit0_chest */
+
+/* Crotch */
+$crotch_x: -230px;				  /* outfit0_crotch */
+$crotch_y: -160px;				  /* outfit0_crotch */
+
+/* Arms and Hands */
+$arm_lowerhalf_x: -320px;		  /* outfit0_backarm_lowerhalf, outfit0_frontarm_lowerhalf */
+$backarm_y: -140px;	  			  /* outfit0_backarm_lowerhalf, outfit0_backarm_upperhalf */
+
+$arm_upperhalf_x: -405px;	 	  /* outfit0_backarm_upperhalf, outfit0_frontarm_upperhalf */
+
+$frontarm_y: -190px;			  /* outfit0_frontarm_lowerhalf, outfit0_frontarm_upperhalf */
+
+$outfit_BDFH_x: 512px;			/* Affects every 2nd, 4th, 6th, and 8th outfit in each atlas. */
+$outfitC_y: 256px;				/* Affects every 3rd outfit in each atlas. */
+$outfitE_y: 512px;				/* Affects every 5th outfit in each atlas. */
+$outfitG_y: 768px;				/* Affects every 7th outfit in each atlas. */

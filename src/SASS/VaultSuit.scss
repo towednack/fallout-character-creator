@@ -1,0 +1,138 @@
+@import 'mixins';
+
+/*$arm_top: 65px;
+
+$leg_top: 200px;
+
+$headtorso_left: 43px;
+
+$arm_upperhalf_top: 45px;
+
+$arm_lowerhalf_top: 90px;
+*/
+
+#vaultSuit { /* Don't give z-index. */
+	background-color: green;
+}
+
+#vs_frontArm {
+	z-index: 60;
+}
+
+#vs_head {
+	z-index: 70;
+}
+
+#vs_torso {
+	z-index: 50;
+}
+
+#vs_frontLeg {
+	z-index: 40;
+}
+
+#vs_trunk {
+	z-index: 30;
+}
+
+#vs_backLeg {
+	z-index: 20;
+}
+
+#vs_backArm {
+	z-index: 10;
+}
+
+
+/* This is each piece of Vault Suit. */
+.vs_frontarm_lowerhalf, .vs_frontarm_upperhalf, .vs_frontarm_glove, .vs_hat, .vs_mask, .vs_chest, .vs_fronthem, .vs_backhem, .vs_frontleg_upperhalf, .vs_frontleg_lowerhalf, .vs_frontleg_foot, .vs_crotch, .vs_backleg_upperhalf, .vs_backleg_lowerhalf, .vs_backleg_foot, .vs_backarm_lowerhalf, .vs_backarm_upperhalf, .vs_backarm_glove {
+	position: absolute;
+}
+
+.vs_frontarm_lowerhalf {
+	z-index: 63;
+}
+
+.vs_frontarm_upperhalf {
+	z-index: 62;
+}
+
+.vs_frontarm_glove {
+	z-index: 61;
+}
+
+.vs_hat {
+	z-index: 76;
+}
+
+.vs_mask {
+	z-index: 75;
+}
+
+.vs_chest {
+	z-index: 53;
+}
+
+.vs_hem { /* Hems - But not all outfits have hems. */
+
+}
+
+.vs_fronthem {
+	left: -17px;
+	top: 68px;
+  	width: 80px;
+  	height: 115px;
+ 	background-position: ($chest_x - $outfit_BDFH_x) $chest_y;
+ 	transform: scaleX(-1);
+	z-index: 52;
+}
+
+.vs_backhem {
+	left: 63px;
+	top: 68px;
+	width: 50px;
+  	height: 115px;
+  	background-position: ($chest_x - $outfit_BDFH_x) $chest_y;
+  	transform: scaleX(-1);
+	z-index: 51;
+}
+
+.vs_frontleg_upperhalf {
+	z-index: 43;
+}
+
+.vs_frontleg_lowerhalf {
+	z-index: 42;
+}
+
+.vs_frontleg_foot {
+	z-index: 41;
+}
+
+.vs_crotch {
+	z-index: 31;
+}
+
+.vs_backleg_upperhalf {
+	z-index: 23;
+}
+
+.vs_backleg_lowerhalf {
+	z-index: 22;
+}
+
+.vs_backleg_foot {
+	z-index: 21;
+}
+
+.vs_backarm_lowerhalf {
+	z-index: 13;
+}
+
+.vs_backarm_upperhalf {
+	z-index: 12;
+}
+
+.vs_backarm_glove {
+	z-index: 11;
+}
